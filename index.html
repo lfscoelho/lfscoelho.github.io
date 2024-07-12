@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        .main {
+            padding: 30px;
+            background: #fff;
+            margin-bottom: 30px;
+        }
+        .main h1, .main h2 {
+            color: #333;
+        }
+        .main p {
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            color: #fff;
+            background: #0779e4;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #005bb5;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to My GitHub Page</h1>
-  <p>This is a simple GitHub Pages website.</p>
+    <header>
+        <div class="container">
+            <h1><a href="#">My GitHub Profile</a></h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main container">
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hello! I am a passionate C# developer with extensive experience in building high-quality applications. I have a strong background in software development, and I enjoy working on innovative projects that challenge my skills and knowledge.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C# and .NET Framework</li>
+                <li>ASP.NET and ASP.NET Core</li>
+                <li>Entity Framework</li>
+                <li>RESTful API development</li>
+                <li>SQL Server and Database Design</li>
+                <li>Unit Testing and Test-Driven Development (TDD)</li>
+                <li>Version Control with Git</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of my notable projects:</p>
+            <ul>
+                <li>
+                    <strong>Project Name 1</strong>: Description of project, technologies used, and key achievements.
+                </li>
+                <li>
+                    <strong>Project Name 2</strong>: Description of project, technologies used, and key achievements.
+                </li>
+                <li>
+                    <strong>Project Name 3</strong>: Description of project, technologies used, and key achievements.
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me on <a href="https://github.com/yourusername" target="_blank">GitHub</a> or connect with me on LinkedIn.</p>
+            <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
 </body>
 </html>
